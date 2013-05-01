@@ -19,6 +19,7 @@ depends  "python"
 depends  "apache2"
 depends  "runit", "~> 1.0"
 depends  "memcached"
+depends  "cluster_service_discovery"  # for the discovery recipe
 
 suggests "systemd"
 suggests "s6"
